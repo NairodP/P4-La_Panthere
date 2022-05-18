@@ -78,7 +78,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/M-texture-paper.png");
+    background: url("M-IMG/M-texture-paper.webp");
     background-size: 260px 260px;
 }
 
@@ -264,6 +264,12 @@ button {
     box-shadow: none;
 }
 
+.text-center {
+    margin: auto!important;
+    align-items: center!important;
+
+}
+
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -328,7 +334,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 h1,
@@ -442,7 +448,7 @@ h1 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #F3976C!important;
     color: #FFFFFF!important;
 }
 
@@ -465,6 +471,12 @@ h1 {
 
 .bg-presentation {
     background-image: url("M-IMG/image-de-presentation.webp");
+}
+
+.style-h4 {
+    color: #000000;
+    font-size: 20px;
+    margin: 0.9em 0!important;
 }
 
 @media (max-width: 1024px) {
@@ -518,8 +530,9 @@ h1 {
 
     .align-reseau {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
+
     }
 
     .row-modif {
