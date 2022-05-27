@@ -1,5 +1,6 @@
 html {
   max-width: 1920px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -347,6 +348,9 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
+  font-size: 22px!important;
+  text-decoration: none!important;
+  line-height: 50px!important;
 }
 
 h3 {
@@ -499,6 +503,23 @@ h5 {
 
 .bgc-modif {
   background-color: #B36041;
+}
+
+.scrollToTopBTN {
+  position: fixed!important;
+  width: 50px!important;
+  height: 50px!important;
+  background: rgb(255,172,121)!important;
+  background: linear-gradient(0deg, rgba(255,172,121,0.7) 0%, rgba(220,124,86,0.7) 100%)!important;
+  color: white!important;
+  bottom: 30px!important;
+  right: 30px!important;
+  text-decoration: none!important;
+  text-align: center!important;
+  line-height: 50px!important;
+  z-index: 10000!important;
+  font-size: 22px!important;
+  border-radius: 10%!important;
 }
 
 @media (max-width: 1024px) {
