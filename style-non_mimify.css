@@ -642,7 +642,7 @@ h5 {
 }
 
 @media (max-width: 320px) {
-  .img_resp {
+  #img_resp {
     width: 180px!important;
     height: auto!important;
   }
