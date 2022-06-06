@@ -78,7 +78,7 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url("M-IMG/M-texture-paper.webp");
+  background: url("M_IMG/M-texture-paper.webp");
   background-size: 260px 260px;
 }
 
@@ -179,7 +179,8 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-  background: transparent;
+  background-color: red!important;
+  border-radius: 5px!important;
 }
 
 .navbar-toggle {
@@ -188,7 +189,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-  background: transparent!important;
+  background-color: orange!important;
 }
 
 .navbar-toggle .icon-bar {
@@ -486,6 +487,11 @@ h4 {
   text-decoration: underline!important;
 }
 
+.bold-link:focus,
+.bold-link:hover {
+  color: red!important;
+}
+
 .bgc-white {
   background-color: #FFFFFF;
 }
@@ -507,8 +513,9 @@ h4 {
   color: #FFFFFF!important;
 }
 
-.btn-atomic-tangerine:hover {
-  background: #c27956!important;
+.btn-atomic-tangerine:hover,
+.btn-atomic-tangerine:focus {
+  background: red!important;
   color: #FFFFFF!important;
 }
 
@@ -516,8 +523,9 @@ h4 {
   color: #FFFFFF!important;
 }
 
-.ltc-white:hover {
-  color: #cccccc!important;
+.ltc-white:hover
+.ltc-white:focus {
+  color: red!important;
 }
 
 .icon-dark-slate-blue {
@@ -557,13 +565,13 @@ h3 {
 }
 
 .bg-banniere {
-  background-image: url("M-IMG/agence-la-panthere.webp");
+  background-image: url("M_IMG/agence-la-panthere.webp");
   width: 100vw;
   height: auto;
 }
 
 .bg-presentation {
-  background-image: url("M-IMG/image-de-presentation.webp");
+  background-image: url("M_IMG/image-de-presentation.webp");
   width: 100vw;
   height: auto;
 }
@@ -600,6 +608,12 @@ h5 {
   font-size: 22px!important;
   border-radius: 10%!important;
 }
+
+.scrollToTopBTN:hover,
+.scrollToTopBTN:focus {
+  background-color: red!important;
+}
+
 
 @media (max-width: 992px) and (min-width: 768px) {
   .navbar .nav {
